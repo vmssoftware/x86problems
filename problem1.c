@@ -23,7 +23,6 @@ void createSecondArray(int size)
 int main()
 {   
     int i;
-    printf("%d\n", i);
     char main_array[10] = {0};
     createSecondArray(20);
     printf("Main array\n");
