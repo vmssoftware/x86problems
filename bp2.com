@@ -1,2 +1,2 @@
-$ cc/noopt problem2
-$ link problem2
+$cc/noopt problem2
+$link problem2
