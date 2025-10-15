@@ -11,8 +11,9 @@ void updateB(unsigned int *b)
 
 int main(int argc, char **argv)
 {
-    unsigned int orig_a = 10, a = 10;
+    unsigned int a = 10;
     unsigned int b = 10;
+    unsigned int orig_a = a;
     printf("a= %d, b = %d\n", a, b);
     updateB(&b);
     printf("a= %d, b = %d\n", a, b);
